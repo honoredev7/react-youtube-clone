@@ -32,9 +32,10 @@ const SearchBar = () => {
             className="search-bar" 
             placeholder="Search..."
             value={searchTerm}
+            style={{fontSize: '17px'}}
             onChange={e => setSearchTerm(e.target.value)}
             />
-            <IconButton type="submit" sx={{ p: '10px', color: 'red'}} >
+            <IconButton type="submit" sx={{ p: '10px', color: '#FC1503'}} >
                 <Search />
             </IconButton>
         </Paper>
